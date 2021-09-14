@@ -1,0 +1,35 @@
+  #App {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    .App-header {
+      background-color: #282c34;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      .display-1{
+        font-size: 1.5rem;
+      }
+    }
+    
+    .user-container {
+      display: grid ;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      font-size: 1.8rem;
+      padding:20px 0px 40px 112px;
+    }
+    
+    .info-item {
+        margin: 27px 21px 39px 0px;
+    }
+
+    #cards1{
+        width: 50%;
+        margin: 80px 0px 0px 0px;
+    }
